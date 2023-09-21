@@ -137,8 +137,7 @@ button.see-more-btn {
 
 button.see-more-btn:hover {
     background:transparent;
-    border:2px solid var(--button-color);
-    color:var(--primary-color)
+    border:1px solid var(--button-color);
 }
 /* Portfolio Section End */
 
@@ -173,13 +172,21 @@ input[type=text], input[type=email], .text-area {
     font-size:var(--p-fs)
 }
 
+input[type=text], input[type=email] {
+    height:70px
+}
+
+.text-area {
+    height:140px
+}
+
 button[type=submit] {
     background:var(--button-color)
 }
 
 button[type=submit]:hover {
     background:transparent;
-    border:2px solid var(--button-color)
+    border:1px solid var(--button-color)
 }
 /* Contact Section End */
 
