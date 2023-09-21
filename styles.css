@@ -10,6 +10,7 @@
     outline:none;
     scroll-behavior: smooth;
     font-family:var(--font-family);
+    word-wrap: break-word;
 }
 
 :root {
@@ -208,6 +209,15 @@ footer {
 
 
 /* Media Queries Starting */
+@media only screen and (max-width:991px) {
+   div.contact-container {
+    padding:0 !important;
+    margin:auto !important;
+    text-align:center
+   } 
+}
+
+
 @media only screen and (max-width:840px) {
     .home {
         background-image:url('./bg-2v3.jpg')
