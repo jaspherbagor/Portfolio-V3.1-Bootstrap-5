@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaspher Bagor Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="container-fluid custom-header px-lg-5 top-0 position-fixed my-auto">
+        <nav class="navbar navbar-expand-lg navbar-dark container-fluid">
+            <div class="container-fluid header-elements">
+                <a class="navbar-brand logo-whole" href="#">PORT<span class="logo-2">FOLIO</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="menu-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-lg-4" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-white">
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link fw-bold mx-3" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-3" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-3" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-3" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section Start -->
+    <section class="container-fluid home vh-100 d-flex align-items-center justify-content-center text-white top-0" id="hero">
+        <div class="hero-text text-center py-lg-5">
+            <h1 class="text-center">Jaspher Bagor</h1>
+            <h2 class="text-center">Freelance Front-End Developer</h2>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- About Section Start -->
+    <section class="about container-fluid h-auto p-3 text-left text-white" id="about">
+        <div class="container about-elements">
+            <h2 class="text-center py-3">About Me</h2>
+            <div class="about-img text-center">
+                <img class="img-responsive about-img" src="./1682949756611.jpg">
+            </div>
+            <div class="about-text text-center">
+                <h5 class="py-4">I am a budding web developer <span class="text-emphasize">passionately delving into the realms of HTML, CSS and Bootstrap</span></h5>
+                <p class="text-justify py-1">My goal is to craft user-friendly, responsive websites that seamlessly blend aesthetics and usability. Committed to continuous learning, I stay updated with the latest trends and thrive on collaboration with fellow developers. Let's connect and shape the digital world together!</p>    
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section class="portfolio container-fluid px-3 py-3 d-block" id="portfolio">
+        <div class="portfolio-head my-3">
+            <h2 class="text-center">MY PORTFOLIO</h2>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active p-5">
+                    <img src="./25 + 5 Clock.png" class="d-block w-100 h-100" alt="...">
+              </div>
+
+              <div class="carousel-item p-5">
+                    <img src="./HTML Portfolio.png" class="d-block w-100 h-100" alt="...">
+              </div>
+
+              <div class="carousel-item p-5">
+                    <img src="./Landing Page.png" class="d-block w-100 h-100" alt="...">
+              </div>
+
+              <div class="carousel-item p-5">
+                    <img src="./Gallery Page.png" class="d-block w-100 h-100" alt="..." 
+                    </div>
+              </div>
+
+              <div class="carousel-item p-5">
+                    <img src="./Random Quote Machine.png" class="d-block w-100 h-100" alt="...">
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+          <div class="see-more-btn-container text-center py-2"><button class="see-more-btn p-3"><a href="https://codepen.io/jaspherbagor" target="_blank" class="text-decoration-none text-white fs-5 fw-semibold">See More</a></button></div>
+
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact container-fluid h-auto p-3 text-white" id="contact">
+        <div class="text-left px-5">
+            <h2 class="contact-h2">Contact Me</h2>
+        </div>
+        
+        <div class="container-fluid p-3">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-12 left-contact">
+
+                  <div class="p-1 left-contact-contents">
+                        <h5><a href="mailto:jaspherbagor0357@gmail.com" class="email-add text-white text-decoration-none" target="_blank"><i class='bx bxs-envelope float-start'></i>  jaspherbagor0357@gmail.com</a></h5>
+                        <h5 class="my-3"><a href="tel:09169675327" class="phone-num text-white text-decoration-none" target="_blank"><i class='bx bxs-phone-call' ></i> 09169675327</a></h5>
+
+                        <div class="contact-links mx-5 fs-1 fw-bolder">
+                            <a href="http://www.facebook.com/jas.bagor" class="contact-facebook text-white text-decoration-none" target="_blank">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="https://codepen.io/jaspherbagor" class="contact-codepen text-white text-decoration-none" targert="_blank">
+                                <i class='bx bxl-codepen' ></i>
+                            </a>
+                            <a href="https://www.freecodecamp.org/jaspherbagor" class="contact-freeCodeCamp text-white text-decoration-none" target="_blank">
+                                <i class='bx bxs-hot' ></i>
+                            </a>
+                            <a href="https://github.com/jaspherbagor" class="contact-github text-white text-decoration-none" target="_blank">
+                                <i class='bx bxl-github' ></i>
+                            </a>
+                        </div>
+
+                        <div class="download-cv-container py-2">
+                            <button class="download-cv-btn p-3"><a href="#" class="text-decoration-none text-white fs-5 fw-semibold">Download CV </a></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-12 right-contact">
+
+                    <div class="px-4 form-container">
+                        <form action="mailto:jaspherbagor0357@gmail.com" method="post" class="needs-validation novalidate">
+                            <div class="mt-1 pb-3">
+                                <input type="text" class="form-control py-2 col-md-6" id="name" placeholder="Your Name" name="Name" aria-required="true" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control py-2 col-md-6" id="email" placeholder="Your email" name="Email" aria-required="true" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" id="message" placeholder="Your message" class="text-area p-2 w-100"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-success p-3 fs-5 fw-semibold">Submit</button>
+                            </div>
+        
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start-->
+    <footer class="footer h-auto text-white text-center p-3 position-absolute container-fluid">
+        <h4 class="footer-description">Copyright © 2023 - Jaspher Bagor Portfolio
+        </h4>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Scroll Reveal Start-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
