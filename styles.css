@@ -23,6 +23,7 @@
     --footer-bg:#171515;
     --logo-color:#0BFD0B;
     --contact-section-bg: #3e3c3c;
+    --button-hover:#2c9f1b;
 
     --h1-fs: 80px; /* 45px*/
     --logo-fs:40px; /* 40px*/
@@ -55,6 +56,9 @@ div .logo-whole {
     color:var(--logo-color)
 }
 
+li.nav-item a:hover {
+    border-bottom: 2px solid var(--text-color)
+}
 /* Header Section End */
 
 /* Home Section Start */
@@ -136,8 +140,7 @@ button.see-more-btn {
 }
 
 button.see-more-btn:hover {
-    background:transparent;
-    border:1px solid var(--button-color);
+    background:var(--button-hover);
 }
 /* Portfolio Section End */
 
@@ -156,14 +159,22 @@ section.contact {
     font-weight:var(--h4-fw)
 }
 
+.contact-links a {
+    font-size:var(--h2-fs);
+    opacity:0.8
+}
+
+.contact-links a:hover {
+    opacity:1
+}
+
 button.download-cv-btn {
     background:var(--button-color);
     border-radius:10px
 }
 
 button.download-cv-btn:hover {
-    background:transparent;
-    border:1px solid var(--button-color);
+    background:var(--button-hover);
 }
 
 input[type=text], input[type=email], .text-area {
@@ -185,8 +196,7 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-    background:transparent;
-    border:1px solid var(--button-color)
+    background:var(--button-hover);
 }
 /* Contact Section End */
 

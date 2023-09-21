@@ -10,7 +10,7 @@ let navbar = document.querySelector('.navbar-nav');
 const sr = ScrollReveal ({
     distance: '40px',
     duration:1500,
-    delay:100,
+    delay:150,
     reset:true
 });
 
