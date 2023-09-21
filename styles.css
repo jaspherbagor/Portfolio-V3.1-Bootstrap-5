@@ -208,5 +208,22 @@ footer {
 
 
 /* Media Queries Starting */
+@media only screen and (max-width:840px) {
+    .home {
+        background-image:url('./bg-2v3.jpg')
+    }
+}
+
+@media only screen and (max-width:614px) {
+    :root {
+    --h1-fs: 45px;
+    --logo-fs:35px;
+    --h2-fs:34px;
+    --h3-fs:24px;
+    --h4-fs:20px;
+    --h5-fs: 18px;
+    --p-fs: 16px;
+    }
+}
 
 /* Media Queries Ending */
