@@ -277,8 +277,26 @@ footer {
     --h2-fs:28px;
     --h3-fs:22px;
     --h4-fs:21px;
-    --h5-fs: 17px;
+    --h5-fs: 16px;
     --p-fs: 16px;
+
+    --h5-fw:100;
+    }
+
+    button {
+        padding:9px 20px 9px 20px !important;
+    }
+
+    div.contacts-container {
+        padding:10px !important;
+        margin:auto
+    }
+}
+
+@media only screen and (max-width:300px) {
+    :root {
+        --h5-fs:14px;
+        --logo-fs:24px;
     }
 }
 /* Media Queries Ending */
