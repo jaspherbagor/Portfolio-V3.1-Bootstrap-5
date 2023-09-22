@@ -58,7 +58,7 @@ div .logo-whole {
 }
 
 li.nav-item a:hover {
-    border-bottom: 2px solid var(--text-color)
+    color:var(--logo-color)
 }
 /* Header Section End */
 
@@ -214,13 +214,39 @@ footer {
     padding:0 !important;
     margin:auto !important;
     text-align:center
-   } 
+   }
+
+   h2.contact-h2 {
+    text-align:center;
+   }
+
+   div.left-contact-contents h5 {
+    text-align:center
+   }
 }
 
 
 @media only screen and (max-width:840px) {
     .home {
         background-image:url('./bg-2v3.jpg')
+    }
+
+    div.left-contact-contents h5 {
+        margin:0 !important;
+        padding:5px !important
+       }
+    
+    section.contact {
+        padding:5px !important;
+        margin:auto
+    }
+    
+    div.contacts-container {
+        padding:5px;
+    }
+
+    div.form-container {
+        padding: 0 !important;
     }
 }
 
@@ -234,6 +260,25 @@ footer {
     --h5-fs: 18px;
     --p-fs: 16px;
     }
+
+    div.carousel-item {
+        padding:0 !important
+    }
+
+    section.portfolio {
+        padding:5px !important
+    }
 }
 
+@media only screen and (max-width:450px) {
+    :root {
+    --h1-fs: 35px;
+    --logo-fs:25px;
+    --h2-fs:28px;
+    --h3-fs:22px;
+    --h4-fs:21px;
+    --h5-fs: 17px;
+    --p-fs: 16px;
+    }
+}
 /* Media Queries Ending */
