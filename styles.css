@@ -33,7 +33,6 @@
     --h4-fs:35px; /*20px */
     --h5-fs: 25px;
     --p-fs: 20px; /*18px*/
-    --nav-links:28px; /*18px*/
     --font-family: 'Montserrat', sans-serif;
     --h1-fw:800;
     --logo-fw:700;
@@ -225,7 +224,6 @@ footer {
    }
 }
 
-
 @media only screen and (max-width:840px) {
     .home {
         background-image:url('./bg-2v3.jpg')
@@ -296,7 +294,7 @@ footer {
 @media only screen and (max-width:300px) {
     :root {
         --h5-fs:14px;
-        --logo-fs:24px;
+        --logo-fs:23px;
     }
 }
 /* Media Queries Ending */
